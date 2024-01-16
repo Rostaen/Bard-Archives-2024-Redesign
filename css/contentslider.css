@@ -1,0 +1,68 @@
+.sliderwrapper{
+	position: relative; /*leave as is*/
+	overflow: hidden; /*leave as is*/
+	border: 1px solid black;
+	width: 630px; /*width of featured content slider*/
+	/*height: 300px; TURNED OFF TEMP*/
+	/*min-height: 433.11px;  REMOVE WHEN HEIGHT IS RESTORED */
+}
+
+.sliderwrapper .contentdiv{
+	visibility: hidden; /*leave as is*/
+	position: absolute; /*leave as is*/
+	left: 0;  /*leave as is*/
+	top: 0;  /*leave as is*/
+	/*padding: 5px;*/
+	background: white;
+	/*width: 630px; TURNED OFF TEMP width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+	/*height: 100%;*/
+	filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+
+.pagination{
+	width: 240px; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+	text-align: right;
+	/*background-color: white;*/
+	padding: 0px 10px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+}
+
+.pagination a{
+	/*padding: 0 5px;*/
+	text-decoration: none; 
+	color: #00007D;
+	background: white;
+	/*border: 1px solid black;
+	margin: 6px 8px;
+	height: 62px;*/
+	float: left;
+	display: block;
+	border: 0px;
+	height: 20px;
+	margin: 10px;/*
+	background: url('../images/slider-dot.png') no-repeat;*/
+}
+
+.pagination a img{
+	width: 62px;
+	height: 62px;
+}
+
+.pagination a:hover, .pagination a.selected{
+	color: #000;
+	/*background-color: #FEE496;
+	border: 1px solid #fc0;*/
+	border: 0px;/*
+	background: url('../images/slider-dot-active.png') no-repeat;*/
+}
+
+.content .pagination a{
+	
+}
+.content .pagination a:hover, .content .pagination a:selected{
+	
+}
